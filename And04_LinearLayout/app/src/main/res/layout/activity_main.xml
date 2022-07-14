@@ -9,6 +9,7 @@
     android:orientation="vertical">
 <!--LinearLayout  orientation : 가로 / 세로 ( horizontal / vertical )
     default : horizontal <-
+
 -->
     <Button
         android:layout_width="wrap_content"
