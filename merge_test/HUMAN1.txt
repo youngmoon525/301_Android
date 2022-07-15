@@ -1,2 +1,4 @@
+
 휴먼1 작업
-AAAAAAAAAA
+휴먼2 작업함
+BBBBBBBBBBBBB
