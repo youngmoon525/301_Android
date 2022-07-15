@@ -4,11 +4,10 @@ plugins {
 
 android {
     compileSdk 31
-    buildToolsVersion "33.0.0"
 
     defaultConfig {
         applicationId "com.example.and05_framelayout"
-        minSdk 24
+        minSdk 21
         targetSdk 31
         versionCode 1
         versionName "1.0"
