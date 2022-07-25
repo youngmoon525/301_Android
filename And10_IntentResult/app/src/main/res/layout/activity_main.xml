@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
 <Button
     android:text="새화면 띄우기"
     android:id="@+id/btn"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="50dp"
+        android:text="테스트 액티비티"
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-</RelativeLayout>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:text="암시적 인텐트 전화 기능"
+        android:id="@+id/btn_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:text="암시적 인텐트 인터넷 기능"
+        android:id="@+id/btn_internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:text="암시적 인텐트 지도 기능"
+        android:id="@+id/btn_gps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
